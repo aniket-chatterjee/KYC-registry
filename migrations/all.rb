@@ -1,0 +1,7 @@
+require_relative './001_countries.rb'
+require_relative './002_customers.rb'
+require_relative './003_related_persons.rb'
+require_relative './004_attestations.rb'
+require_relative './005_addresses.rb'
+require_relative './006_applicant_declarations.rb'
+require_relative './007_documents.rb'

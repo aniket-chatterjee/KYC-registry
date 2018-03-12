@@ -1,0 +1,752 @@
+form
+  .row
+    .col.m12
+  .row
+    .col.m12
+      .col.m1.right-align
+        | KYC Type*
+      .col.m6
+          input#kyc_type_normal type="radio" name="kyc_type" value="normal"
+          label for="kyc_type_normal" Normal (PAN is mandatory)
+          input#kyc_type_pei type="radio" name="kyc_type" value="normal"
+          label for="kyc_type_pei" PAN Exempt Investors
+  .row
+    .col.m8
+      ul.collapsible.popout data-collapsible="accordion"
+        li
+          .collapsible-header
+            i.material-icons account_box
+            |1.Identity Details (Please refer instruction)
+            .right.material-icons more_horiz
+          .collapsible-body
+            .row
+              .col.m2
+                |Name*(same as ID proof)
+              .col.m1
+                .input-field
+                  input#name_prefix type="text" data-length="3" required=""
+                  label for="name_prefix" PREFIX
+              .col.m3
+                .input-field
+                  input#first_name type="text" data-length="11" required=""
+                  label for="first_name" FIRST NAME
+              .col.m3
+                .input-field
+                  input#middle_name type="text" data-length="11"
+                  label for="middle_name" MIDDLE NAME
+              .col.m3
+                .input-field
+                  input#last_name type="text" data-length="11" required=""
+                  label for="last_name" LAST NAME
+            .row
+              .col.m2
+                |Maiden Name(if any*)
+              .col.m1
+                .input-field
+                  input#maiden_name_name_prefix type="text" data-length="3" required=""
+                  label for="maiden_name_name_prefix" PREFIX
+              .col.m3
+                .input-field
+                  input#maiden_name_first_name type="text" data-length="11" required=""
+                  label for="maiden_name_first_name" FIRST NAME
+              .col.m3
+                .input-field
+                  input#maiden_name_middle_name type="text" data-length="11"
+                  label for="maiden_name_middle_name" MIDDLE NAME
+              .col.m3
+                .input-field
+                  input#maiden_name_last_name type="text" data-length="11" required=""
+                  label for="maiden_name_last_name" LAST NAME
+            .row
+              .col.m2
+                |Father/Spouse name*
+              .col.m1
+                .input-field
+                  input#father_spouse_name_prefix type="text" data-length="3" required=""
+                  label for="father_spouse_name_prefix" PREFIX
+              .col.m3
+                .input-field
+                  input#father_spouse_first_name type="text" data-length="11" required=""
+                  label for="father_spouse_first_name" FIRST NAME
+              .col.m3
+                .input-field
+                  input#father_spouse_middle_name type="text" data-length="11"
+                  label for="father_spouse_middle_name" MIDDLE NAME
+              .col.m3
+                .input-field
+                  input#father_spouse_last_name type="text" data-length="11" required=""
+                  label for="father_spouse_last_name" LAST NAME
+            .row
+              .col.m2
+                |Mother name*
+              .col.m1
+                .input-field
+                  input#mother_name_prefix type="text" data-length="3" required=""
+                  label for="mother_name_prefix" PREFIX
+              .col.m3
+                .input-field
+                  input#mother_first_name type="text" data-length="11" required=""
+                  label for="mother_first_name" FIRST NAME
+              .col.m3
+                .input-field
+                  input#mother_middle_name type="text" data-length="11"
+                  label for="mother_middle_name" MIDDLE NAME
+              .col.m3
+                .input-field
+                  input#mother_last_name type="text" data-length="11" required=""
+                  label for="mother_last_name" LAST NAME
+            .row
+              .col.m2
+                |Date of Birth*
+              .col.m4
+                input#date_of_birth type="text" class="datepicker"
+            .row
+              .col.m2
+                |Gender*
+              .col.m10
+                input#gender_male type="radio" name="gender" value="Male"
+                label for="gender_male" M-Male
+
+                input#gender_female type="radio" name="gender" value="Female"
+                label for="gender_female" F-Female
+
+                input#gender_transgender type="radio" name="gender" value="Transgender"
+                label for="gender_transgender" T-Transgender
+
+            .row
+              .col.m2
+                |Marital Status*
+              .col.m10
+                input#marital_status_married type="radio" name="marital_status" value="married"
+                label for="marital_status_married" Married
+
+                input#marital_status_unmarried type="radio" name="marital_status" value="Unmarried"
+                label for="marital_status_married" Unmarried
+
+                input#marital_status_others type="radio" name="marital_status" value="Others"
+                label for="gender_transgender" Others
+
+            .row
+              .col.m2
+                |Citizenship*
+              .col.m10
+                select name="customer_coutry"
+                  option value="" disabled="" selected="" Select Country
+                  option value="IN" India
+
+            .row
+              .col.m2
+                |Residential Status*
+              .col.m10
+                input#residential_status_resident_individual type="radio" name="residential_status" value="Resident Individual"
+                label for="residential_status_resident_individual" Resident Individual
+
+                input#residential_status_non_resident_indian type="radio" name="residential_status" value="Non Resident Indian"
+                label for="residential_status_non_resident_indian" Non Resident Indian
+
+                input#residential_status_non_foreign_national type="radio" name="residential_status" value="Foreign National"
+                label for="residential_status_non_foreign_national" Foreign National
+
+                input#residential_status_person_of_indian_origin type="radio" name="residential_status" value="Person of Indian Origin"
+                label for="residential_status_person_of_indian_origin" Person of Indian Origin
+            .row
+              .col.m2
+                |Occupation type*
+              .col.m10
+                .row
+                  .col.m12
+                    input#occupation_type_service type="radio" name="occupation_type" value="Service"
+                    label for="occupation_type_service" S-Service
+
+                    input#occupation_sector_private_sector type="radio" name="occupation_sector" value="Private Sector"
+                    label for="occupation_sector_private_sector" Private Sector
+
+                    input#occupation_sector_public_sector type="radio" name="occupation_sector" value="Public Sector"
+                    label for="occupation_sector_public_sector" Public Sector
+
+                    input#occupation_sector_government_sector type="radio" name="occupation_sector" value="Government Sector"
+                    label for="occupation_sector_government_sector" Government Sector
+
+                .row
+                  .col.m12
+                    input#occupation_type_others type="radio" name="occupation_type" value="Others"
+                    label for="occupation_type_others" O-Others
+
+                    input#occupation_sector_professional type="radio" name="occupation_sector" value="Professional"
+                    label for="occupation_sector_professional" Professional
+
+                    input#occupation_sector_self_employed type="radio" name="occupation_sector" value="Self Employed"
+                    label for="occupation_sector_self_employed" Self Employed
+
+                    input#occupation_sector_retired type="radio" name="occupation_sector" value="Retired"
+                    label for="occupation_sector_retired" Retired
+
+                    input#occupation_sector_house_wife type="radio" name="occupation_sector" value="Housewife"
+                    label for="occupation_sector_house_wife" Housewife
+
+                    input#occupation_sector_student type="radio" name="occupation_sector" value="Student"
+                    label for="occupation_sector_student" Student
+                .row
+                  .col.m12
+                    input#occupation_type_business type="radio" name="occupation_type" value="Business"
+                    label for="occupation_type_business" B-Business
+
+                .row
+                  .col.m12
+                    input#occupation_type_not_categorised type="radio" name="occupation_type" value="Not Categorised"
+                    label for="occupation_type_not_categorised" X-Not Categorised
+
+            .row
+              .col.m12.right-align
+                form action="#"
+                  .file-field.input-field
+                    .btn
+                      span Photo
+                      input#photo name="photo" type="file" /
+                    .file-path-wrapper
+                      input.file-path.validate type="text" /
+                form action="#"
+                  .file-field.input-field
+                    .btn
+                      span Signature
+                      input#signature name="signature" type="file" /
+                    .file-path-wrapper
+                      input.file-path.validate type="text" /
+
+            .row
+              .col.m12.right-align
+                button.btn.wave-efects.blue next
+
+
+        li
+          .collapsible-header
+            i.material-icons perm_identity
+            |2.Proof Of Identity(PoI)* (for PAN exempt Investor or if PAN card copy not provided) (Please refer instructions C & K at the end)
+          .collapsible-body
+            .row
+              .col.m12
+                input#proof_of_identity_passport type="radio" name="proof_of_identity_passport" value=""
+                label for="proof_of_identity_passport" A- Passport Number
+
+                .row
+                  .col.m6
+                    .input-field
+                      input#passport_number type="text" data-length="9"
+                      label for="passport_number" Passport Number
+                  .col.m6
+                    .input-field
+                      input#passport_expiry_date type="text"  class="datepicker"
+                      label for="passport_expiry_date" Passport Expiry Date
+            .row
+              .col.m12
+                input#proof_of_identity_voter_id type="radio" name="proof_of_identity_voter_id" value=""
+                label for="proof_of_identity_voter_id" B- Voter ID Card
+
+                .row
+                  .col.m6
+                    .input-field
+                      input#voter_id_number type="text" data-length="14"
+                      label for="voter_id_number" Voter ID
+            .row
+              .col.m12
+                input#proof_of_identity_driving_licence type="radio" name="proof_of_identity_driving_licence" value=""
+                label for="proof_of_identity_driving_licence" D- Driving Licence Number
+
+                .row
+                  .col.m6
+                    .input-field
+                      input#driving_licence_number type="text" data-length="15"
+                      label for="driving_licence_number" Driving Licence Number
+                  .col.m6
+                    .input-field
+                      input#driving_licence_expiry_date type="text"  class="datepicker"
+                      label for="driving_licence_expiry_date" Driving Licence Expiry Date
+            .row
+              .col.m12
+                input#proof_of_identity_aadhaar_card type="radio" name="proof_of_identity_aadhaar_card" value=""
+                label for="proof_of_identity_aadhaar_card" E- Aadhaar Card
+
+                .row
+                  .col.m6
+                    .input-field
+                      input#aadhaar_card_number type="text" data-length="12"
+                      label for="aadhaar_card_number" Aadhaar Card number
+            .row
+              .col.m12
+                input#proof_of_identity_nrega_job_card type="radio" name="proof_of_identity_nrega_job_card" value=""
+                label for="proof_of_identity_nrega_job_card" F- NREGA Job Card
+
+                .row
+                  .col.m6
+                    .input-field
+                      input#nrega_job_card_number type="text" data-length="15"
+                      label for="nrega_job_card_number" NREGA job card number
+            .row
+              .col.m12
+                input#proof_of_identity_other_card type="radio" name="proof_of_identity_other_card" value=""
+                label for="proof_of_identity_other_card" Z- Others (any document notified by the central government)
+
+                .row
+                  .col.m6
+                    .input-field
+                      input#other_card_number type="text" data-length="10"
+                      label for="other_card_id" Other card number
+                  .col.m6
+                    .input-field
+                      input#other_card_number type="text" data-length="12"
+                      label for="other_card_number" Other card number
+            .row
+              .col.m12
+                form action="#"
+                  .file-field.input-field
+                    .btn
+                      span Document
+                      input#signature name="poi_doument" type="file" /
+                    .file-path-wrapper
+                      input.file-path.validate type="text" /
+            .row
+              .col.m12.right-align
+                button.btn.wave-efects.blue next
+        li
+          .collapsible-header
+            i.material-icons location_city
+            |3. Proof of Address (PoA)*
+          .collapsible-body
+            .row
+              .col.m12
+                .card.no-margin
+                  .card-content
+                    .row
+                      .col.m12
+                        p Current / Permanent / Overseas Address Details (Please see instruction D at the end)
+                    .row
+                      .col.m12
+                        .input-field
+                          input#local_address_line1 type="text" data-length="46" required=""
+                          label for="local_address_line1" Address line 1 *
+                      .col.m12
+                        .input-field
+                          input#local_address_line2 type="text" data-length="46"
+                          label for="local_address_line2" Address line 2
+                      .col.m6
+                        .input-field
+                          input#local_address_line3 type="text" data-length="29"
+                          label for="address_line3" Address line 3
+                      .col.m6
+                        .input-field
+                          input#local_city_town_village type="text" data-length="9"  required=""
+                          label for="local_city_town_village" City/Town/Village *
+                      .col.m4
+                        .input-field
+                          input#local_district type="text" data-length="10" required=""
+                          label for="local_district" District *
+                      .col.m4
+                        .input-field
+                          input#local_zip_pin type="text" data-length="6"
+                          label for="local_zip_pin" Zip/Post code *
+                      .col.m4
+                        .input-field
+                          input#local_state_ut_code type="text" data-length="6"
+                          label for="local_state_ut_code" State/UT code
+
+                      .col.m6
+                        .input-field
+                          input#local_state_ut type="text" data-length="16"
+                          label for="local_state_ut" State/UT
+                      .col.m6
+                        .input-field
+                          select name="local_address_coutry"
+                            option value="" disabled="" selected="" Select Country
+                            option value="IN" India
+                      .col.m12
+                        form action="#"
+                          .file-field.input-field
+                            .btn
+                              span Document
+                              input#photo name="proof_of_address" type="file" /
+                            .file-path-wrapper
+                              input.file-path.validate type="text" /
+
+            .row
+              .col.m12
+                .card
+                  .card-content
+                    .row
+                      p Correspondence / Local Address Details* (Please see instruction E at the end)
+                    .row
+                      .col.m12
+                        .input-field
+                          input#local_address_line1 type="text" data-length="46" required=""
+                          label for="local_address_line1" Address line 1 *
+                      .col.m12
+                        .input-field
+                          input#address_line2 type="text" data-length="46"
+                          label for="address_line2" Address line 2
+                      .col.m6
+                        .input-field
+                          input#address_line3 type="text" data-length="29"
+                          label for="address_line3" Address line 3
+                      .col.m6
+                        .input-field
+                          input#city_town_village type="text" data-length="9"  required=""
+                          label for="city_town_village" City/Town/Village *
+                      .col.m4
+                        .input-field
+                          input#district type="text" data-length="10" required=""
+                          label for="district" District *
+                      .col.m4
+                        .input-field
+                          input#zip_pin type="text" data-length="6"
+                          label for="zip_pin" Zip/Post code *
+                      .col.m4
+                        .input-field
+                          input#state_ut_code type="text" data-length="6"
+                          label for="state_ut_code" State/UT code
+
+                      .col.m6
+                        .input-field
+                          input#state_ut type="text" data-length="16"
+                          label for="state_ut" State/UT
+                      .col.m6
+                        .input-field
+                          select name="address_coutry"
+                            option value="" disabled="" selected="" Select Country
+                            option value="IN" India
+            .row
+              .col.m12.right-align
+                button.btn.wave-efects.blue next
+
+        li
+          .collapsible-header
+            i.material-icons contacts
+            |4.Contact Details (All communications will be sent on provided Mobile no. / Email-ID) (Please refer instruction F at the end)
+          .collapsible-body
+            .row
+              .col.m12
+                .input-field
+                  input#email_id type="text" data-length="46"
+                  label for="email_id" Email Id
+              .col.m4
+                .input-field
+                  input#mobile type="text" data-length="13"
+                  label for="mobile" Mobile
+              .col.m4
+                .input-field
+                  input#telephone_off type="text" data-length="13"
+                  label for="telephone_off" Tel.(Off)
+              .col.m4
+                .input-field
+                  input#telephone_res type="text" data-length="13"
+                  label for="telephone_res" Tel.(Res)
+            .row
+              .col.m12.right-align
+                button.btn.wave-efects.blue next
+        li
+          .collapsible-header
+            i.material-icons confirmation_number
+            |5.FATCA/CRS Information (Tick if Applicable) Residence for Tax Purposes in Jurisdiction(s) Outside India (Please refer instruction B at the end)
+          .collapsible-body
+            .row
+              .col.m6
+                |Country of Jurisdiction of Residence*
+              .col.m6
+                select name="jurisdiction_country"
+                  option value="" disabled="" selected="" Select Country
+                  option value="IN" India
+            .row
+              .col.m12
+                .input-field
+                  input#tax_identification_number type="text" data-length="14" required=""
+                  label for="tax_identification_number"
+                    |Tax Identification Number or equivalent (If issued by jurisdiction)*
+            .row
+              .col.m6
+                .input-field
+                  input#place_city_of_birth type="text" data-length="12" required=""
+                  label for="place_city_of_birth"
+                    |Place/City of Birth *
+              .col.m6
+                select name="country_of_birth"
+                  option value="" disabled="" selected="" Select Country of Birth
+                  option value="IN" India
+            .row
+              .col.m12
+                .input-field
+                  input#ftca_crs_address_line1 type="text" data-length="46" required=""
+                  label for="ftca_crs_address_line1" Address line 1 *
+              .col.m12
+                .input-field
+                  input#ftca_crs_address_line2 type="text" data-length="46"
+                  label for="ftca_crs_address_line2" Address line 2
+              .col.m6
+                .input-field
+                  input#ftca_crs_address_line3 type="text" data-length="29"
+                  label for="address_line3" Address line 3
+              .col.m6
+                .input-field
+                  input#ftca_crs_city_town_village type="text" data-length="9"  required=""
+                  label for="ftca_crs_city_town_village" City/Town/Village *
+              .col.m4
+                .input-field
+                  input#ftca_crs_district type="text" data-length="10" required=""
+                  label for="ftca_crs_district" District *
+              .col.m4
+                .input-field
+                  input#ftca_crs_zip_pin type="text" data-length="6"
+                  label for="ftca_crs_zip_pin" Zip/Post code *
+              .col.m4
+                .input-field
+                  input#ftca_crs_state_ut_code type="text" data-length="6"
+                  label for="ftca_crs_state_ut_code" State/UT code
+
+              .col.m6
+                .input-field
+                  input#ftca_crs_state_ut type="text" data-length="16"
+                  label for="ftca_crs_state_ut" State/UT
+              .col.m6
+                .input-field
+                  select name="ftca_crs_address_coutry"
+                    option value="" disabled="" selected="" Select Country
+                    option value="IN" India
+              .col.m12
+                form action="#"
+                  .file-field.input-field
+                    .btn
+                      span Document
+                      input#photo name="proof_of_address" type="file" /
+                    .file-path-wrapper
+                      input.file-path.validate type="text" /
+            .row
+              .col.m12.right-align
+                button.btn.wave-efects.blue next
+        li
+          .collapsible-header
+            i.material-icons person_add
+            |6.Details of Related Person (Optional) (please refer instruction G at the end)
+          .collapsible-body
+            .row
+              .col.m12
+                .input-field
+                  input#related_person_kyc_number type="text" data-length="14"
+                  label for="related_person_kyc_number" KYC Number of Related Person (if available*)
+            .row
+              .col.m2 Related Person Type*
+              .col.m10
+                input#related_person_guardian_of_minor type="radio" name="related_person_type" value="Guardian of Minor"
+                label for="related_person_guardian_of_minor" Guardian of Minor
+                input#related_person_assignee type="radio" name="related_person_type" value="Assignee"
+                label for="related_person_assignee" Assignee
+                input#related_person_authorized_representative type="radio" name="related_person_type" value="Authorized Representative"
+                label for="related_person_authorized_representative" Authorized Representative
+            .row
+              .col.m2
+                |Name*
+              .col.m1
+                .input-field
+                  input#related_person_name_prefix type="text" data-length="3" required=""
+                  label for="related_person_name_prefix" PREFIX
+              .col.m3
+                .input-field
+                  input#related_person_first_name type="text" data-length="11" required=""
+                  label for="related_person_first_name" FIRST NAME
+              .col.m3
+                .input-field
+                  input#related_person_middle_name type="text" data-length="11"
+                  label for="related_person_middle_name" MIDDLE NAME
+              .col.m3
+                .input-field
+                  input#related_person_last_name type="text" data-length="11" required=""
+                  label for="related_person_last_name" LAST NAME
+            .row
+              .card.no-margin
+                .card-content
+                  .row
+                    .col.m12
+                      p Proof of Identity [PoI] of Related Person* (Please see instruction (H) at the end)(Certified copy of any one of the following Proof of Identity[PoI] needs to be submitted)
+                  .row
+                    .col.m12
+                      input#related_person_passport type="radio" name="related_person_passport" value=""
+                      label for="related_person_passport" A- Passport Number
+
+                      .row
+                        .col.m6
+                          .input-field
+                            input#related_person_passport_number type="text" data-length="9"
+                            label for="related_person_passport_number" Passport Number
+                        .col.m6
+                          .input-field
+                            input#related_person_passport_expiry_date type="text"  class="datepicker"
+                            label for="related_person_passport_expiry_date" Passport Expiry Date
+                  .row
+                    .col.m12
+                      input#related_person_voter_id type="radio" name="related_person_voter_id" value=""
+                      label for="related_person_voter_id" B- Voter ID Card
+
+                      .row
+                        .col.m6
+                          .input-field
+                            input#related_person_voter_id_number type="text" data-length="14"
+                            label for="related_person_voter_id_number" Voter ID
+                  .row
+                    .col.m12
+                      input#related_person_driving_licence type="radio" name="related_person_driving_licence" value=""
+                      label for="related_person_driving_licence" D- Driving Licence Number
+
+                      .row
+                        .col.m6
+                          .input-field
+                            input#related_person_driving_licence_number type="text" data-length="15"
+                            label for="related_person_driving_licence_number" Driving Licence Number
+                        .col.m6
+                          .input-field
+                            input#related_person_driving_licence_expiry_date type="text"  class="datepicker"
+                            label for="related_person_driving_licence_expiry_date" Driving Licence Expiry Date
+                  .row
+                    .col.m12
+                      input#related_person_aadhaar_card type="radio" name="related_person_aadhaar_card" value=""
+                      label for="related_person_aadhaar_card" E- Aadhaar Card
+
+                      .row
+                        .col.m6
+                          .input-field
+                            input#related_person_aadhaar_card_number type="text" data-length="12"
+                            label for="related_person_aadhaar_card_number" Aadhaar Card number
+                  .row
+                    .col.m12
+                      input#related_person_related_person_nrega_job_card type="radio" name="related_person_related_person_nrega_job_card" value=""
+                      label for="related_person_related_person_nrega_job_card" F- NREGA Job Card
+
+                      .row
+                        .col.m6
+                          .input-field
+                            input#related_person_nrega_job_card_number type="text" data-length="15"
+                            label for="related_person_nrega_job_card_number" NREGA job card number
+                  .row
+                    .col.m12
+                      input#related_person_other_card type="radio" name="related_person_other_card" value=""
+                      label for="related_person_other_card" Z- Others (any document notified by the central government)
+
+                      .row
+                        .col.m6
+                          .input-field
+                            input#related_person_other_card_number type="text" data-length="10"
+                            label for="other_card_id" Other card number
+                        .col.m6
+                          .input-field
+                            input#related_person_other_card_number type="text" data-length="12"
+                            label for="related_person_other_card_number" Other card number
+                  .row
+                    .col.m12
+                      form action="#"
+                        .file-field.input-field
+                          .btn
+                            span Document
+                            input#signature name="related_person_poi_doument" type="file" /
+                          .file-path-wrapper
+                            input.file-path.validate type="text" /
+            .row
+              .col.m12.right-align
+                button.btn.wave-efects.blue next
+        li
+          .collapsible-header
+            i.material-icons comment
+            |7. Remarks (If any)
+          .collapsible-body
+            .row
+              .col.m12
+                .input-field
+                  textarea#remarks.materialize-textarea data-length="100"
+                  label for="remarks" Remarks
+            .row
+              .col.m12.right-align
+                button.btn.wave-efects.blue next
+        li
+          .collapsible-header
+            i.material-icons assignment_turned_in
+            |8. Applicant Declaration
+          .collapsible-body
+            .row
+              .col.m12
+                  p
+                    |I hereby declare that the details furnished above are true and correct to the best of my knowledge and belief and I undertake to inform you of any changes
+                    | therein, immediately. In case any of the above information is found to be false or untrue or misleading or misrepresenting, I am aware that I may be held
+                    | liable for it. I hereby declare that I am not making this application for the purpose of contravention of any Act, Rules, Regulations or any statute of
+                    | legislation or any notifications/directions issued by any governmental or statutory authority from time to time.
+                  p
+                    |I hereby consent to receiving information from Central KYC Registry through SMS/Email on the above registered number/email address.
+
+
+            .row
+              .col.m4
+                .input-field
+                  input#declaration_date type="text" class="datepicker"
+                  label for="declaration_date" Date
+              .col.m4
+                .input-field
+                  input#declaration_place type="text" data-length="12"
+                  label for="declaration_place" Place
+              .col.m4
+                form action="#"
+                  .file-field.input-field
+                    .btn
+                      span Sinature
+                      input#declaration_signature name="declaration_signature" type="file" /
+                    .file-path-wrapper
+                      input.file-path.validate type="text" /
+            .row
+              .col.m12.right-align
+                button.btn.wave-efects.blue next
+      .row
+        .col.m12.right-align
+          button.btn.waves-effect.waves-light.btn-large.blue
+            |save
+            i.material-icons.left save
+    .col.m4
+      .card
+        .card-content
+          .card-title Instructions
+          |Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+css:
+  input {
+      text-transform: uppercase;
+  }
+javascript:
+  $(document).ready(function() {
+      $('select').material_select();
+    });
+  $('.collapsible').collapsible('open', 7);
+  $('#date_of_birth').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 100, // Creates a dropdown of 15 years to control year,
+    clear: 'Clear',
+    close: 'Ok',
+    today:[1999,3,1],
+    min: [1918,3,20],
+    max: [2018,2,1],
+    closeOnSelect: false // Close upon selecting a date,
+  });
+  $('#passport_expiry_date').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 30, // Creates a dropdown of 15 years to control year,
+    clear: 'Clear',
+    close: 'Ok',
+    min: new Date(),
+    closeOnSelect: false // Close upon selecting a date,
+  });
+  $('#driving_licence_expiry_date').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 30, // Creates a dropdown of 15 years to control year,
+    clear: 'Clear',
+    close: 'Ok',
+    min: new Date(),
+    closeOnSelect: false // Close upon selecting a date,
+  });
+  $('#declaration_date').pickadate({
+    selectMonths: 1, // Creates a dropdown to control month
+    selectYears: 1,// Creates a dropdown of 15 years to control year,
+    clear: 'Clear',
+    close: 'Ok',
+    min: new Date(),
+    closeOnSelect: false // Close upon selecting a date,
+  });

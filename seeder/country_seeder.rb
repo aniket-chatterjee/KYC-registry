@@ -1,245 +1,250 @@
-[
-  {name: 'Afghanistan', code: 'AF'},
-  {name: 'Aland Islands', code: 'AX'},
-  {name: 'Albania', code: 'AL'},
-  {name: 'Algeria', code: 'DZ'},
-  {name: 'American Samoa', code: 'AS'},
-  {name: 'AndorrA', code: 'AD'},
-  {name: 'Angola', code: 'AO'},
-  {name: 'Anguilla', code: 'AI'},
-  {name: 'Antarctica', code: 'AQ'},
-  {name: 'Antigua and Barbuda', code: 'AG'},
-  {name: 'Argentina', code: 'AR'},
-  {name: 'Armenia', code: 'AM'},
-  {name: 'Aruba', code: 'AW'},
-  {name: 'Australia', code: 'AU'},
-  {name: 'Austria', code: 'AT'},
-  {name: 'Azerbaijan', code: 'AZ'},
-  {name: 'Bahamas', code: 'BS'},
-  {name: 'Bahrain', code: 'BH'},
-  {name: 'Bangladesh', code: 'BD'},
-  {name: 'Barbados', code: 'BB'},
-  {name: 'Belarus', code: 'BY'},
-  {name: 'Belgium', code: 'BE'},
-  {name: 'Belize', code: 'BZ'},
-  {name: 'Benin', code: 'BJ'},
-  {name: 'Bermuda', code: 'BM'},
-  {name: 'Bhutan', code: 'BT'},
-  {name: 'Bolivia', code: 'BO'},
-  {name: 'Bosnia and Herzegovina', code: 'BA'},
-  {name: 'Botswana', code: 'BW'},
-  {name: 'Bouvet Island', code: 'BV'},
-  {name: 'Brazil', code: 'BR'},
-  {name: 'British Indian Ocean Territory', code: 'IO'},
-  {name: 'Brunei Darussalam', code: 'BN'},
-  {name: 'Bulgaria', code: 'BG'},
-  {name: 'Burkina Faso', code: 'BF'},
-  {name: 'Burundi', code: 'BI'},
-  {name: 'Cambodia', code: 'KH'},
-  {name: 'Cameroon', code: 'CM'},
-  {name: 'Canada', code: 'CA'},
-  {name: 'Cape Verde', code: 'CV'},
-  {name: 'Cayman Islands', code: 'KY'},
-  {name: 'Central African Republic', code: 'CF'},
-  {name: 'Chad', code: 'TD'},
-  {name: 'Chile', code: 'CL'},
-  {name: 'China', code: 'CN'},
-  {name: 'Christmas Island', code: 'CX'},
-  {name: 'Cocos (Keeling) Islands', code: 'CC'},
-  {name: 'Colombia', code: 'CO'},
-  {name: 'Comoros', code: 'KM'},
-  {name: 'Congo', code: 'CG'},
-  {name: 'Congo, The Democratic Republic of the', code: 'CD'},
-  {name: 'Cook Islands', code: 'CK'},
-  {name: 'Costa Rica', code: 'CR'},
-  {name: 'Cote D\'Ivoire', code: 'CI'},
-  {name: 'Croatia', code: 'HR'},
-  {name: 'Cuba', code: 'CU'},
-  {name: 'Cyprus', code: 'CY'},
-  {name: 'Czech Republic', code: 'CZ'},
-  {name: 'Denmark', code: 'DK'},
-  {name: 'Djibouti', code: 'DJ'},
-  {name: 'Dominica', code: 'DM'},
-  {name: 'Dominican Republic', code: 'DO'},
-  {name: 'Ecuador', code: 'EC'},
-  {name: 'Egypt', code: 'EG'},
-  {name: 'El Salvador', code: 'SV'},
-  {name: 'Equatorial Guinea', code: 'GQ'},
-  {name: 'Eritrea', code: 'ER'},
-  {name: 'Estonia', code: 'EE'},
-  {name: 'Ethiopia', code: 'ET'},
-  {name: 'Falkland Islands (Malvinas)', code: 'FK'},
-  {name: 'Faroe Islands', code: 'FO'},
-  {name: 'Fiji', code: 'FJ'},
-  {name: 'Finland', code: 'FI'},
-  {name: 'France', code: 'FR'},
-  {name: 'French Guiana', code: 'GF'},
-  {name: 'French Polynesia', code: 'PF'},
-  {name: 'French Southern Territories', code: 'TF'},
-  {name: 'Gabon', code: 'GA'},
-  {name: 'Gambia', code: 'GM'},
-  {name: 'Georgia', code: 'GE'},
-  {name: 'Germany', code: 'DE'},
-  {name: 'Ghana', code: 'GH'},
-  {name: 'Gibraltar', code: 'GI'},
-  {name: 'Greece', code: 'GR'},
-  {name: 'Greenland', code: 'GL'},
-  {name: 'Grenada', code: 'GD'},
-  {name: 'Guadeloupe', code: 'GP'},
-  {name: 'Guam', code: 'GU'},
-  {name: 'Guatemala', code: 'GT'},
-  {name: 'Guernsey', code: 'GG'},
-  {name: 'Guinea', code: 'GN'},
-  {name: 'Guinea-Bissau', code: 'GW'},
-  {name: 'Guyana', code: 'GY'},
-  {name: 'Haiti', code: 'HT'},
-  {name: 'Heard Island and Mcdonald Islands', code: 'HM'},
-  {name: 'Holy See (Vatican City State)', code: 'VA'},
-  {name: 'Honduras', code: 'HN'},
-  {name: 'Hong Kong', code: 'HK'},
-  {name: 'Hungary', code: 'HU'},
-  {name: 'Iceland', code: 'IS'},
-  {name: 'India', code: 'IN'},
-  {name: 'Indonesia', code: 'ID'},
-  {name: 'Iran, Islamic Republic Of', code: 'IR'},
-  {name: 'Iraq', code: 'IQ'},
-  {name: 'Ireland', code: 'IE'},
-  {name: 'Isle of Man', code: 'IM'},
-  {name: 'Israel', code: 'IL'},
-  {name: 'Italy', code: 'IT'},
-  {name: 'Jamaica', code: 'JM'},
-  {name: 'Japan', code: 'JP'},
-  {name: 'Jersey', code: 'JE'},
-  {name: 'Jordan', code: 'JO'},
-  {name: 'Kazakhstan', code: 'KZ'},
-  {name: 'Kenya', code: 'KE'},
-  {name: 'Kiribati', code: 'KI'},
-  {name: 'Korea, Democratic People\'S Republic of', code: 'KP'},
-  {name: 'Korea, Republic of', code: 'KR'},
-  {name: 'Kuwait', code: 'KW'},
-  {name: 'Kyrgyzstan', code: 'KG'},
-  {name: 'Lao People\'S Democratic Republic', code: 'LA'},
-  {name: 'Latvia', code: 'LV'},
-  {name: 'Lebanon', code: 'LB'},
-  {name: 'Lesotho', code: 'LS'},
-  {name: 'Liberia', code: 'LR'},
-  {name: 'Libyan Arab Jamahiriya', code: 'LY'},
-  {name: 'Liechtenstein', code: 'LI'},
-  {name: 'Lithuania', code: 'LT'},
-  {name: 'Luxembourg', code: 'LU'},
-  {name: 'Macao', code: 'MO'},
-  {name: 'Macedonia, The Former Yugoslav Republic of', code: 'MK'},
-  {name: 'Madagascar', code: 'MG'},
-  {name: 'Malawi', code: 'MW'},
-  {name: 'Malaysia', code: 'MY'},
-  {name: 'Maldives', code: 'MV'},
-  {name: 'Mali', code: 'ML'},
-  {name: 'Malta', code: 'MT'},
-  {name: 'Marshall Islands', code: 'MH'},
-  {name: 'Martinique', code: 'MQ'},
-  {name: 'Mauritania', code: 'MR'},
-  {name: 'Mauritius', code: 'MU'},
-  {name: 'Mayotte', code: 'YT'},
-  {name: 'Mexico', code: 'MX'},
-  {name: 'Micronesia, Federated States of', code: 'FM'},
-  {name: 'Moldova, Republic of', code: 'MD'},
-  {name: 'Monaco', code: 'MC'},
-  {name: 'Mongolia', code: 'MN'},
-  {name: 'Montserrat', code: 'MS'},
-  {name: 'Morocco', code: 'MA'},
-  {name: 'Mozambique', code: 'MZ'},
-  {name: 'Myanmar', code: 'MM'},
-  {name: 'Namibia', code: 'NA'},
-  {name: 'Nauru', code: 'NR'},
-  {name: 'Nepal', code: 'NP'},
-  {name: 'Netherlands', code: 'NL'},
-  {name: 'Netherlands Antilles', code: 'AN'},
-  {name: 'New Caledonia', code: 'NC'},
-  {name: 'New Zealand', code: 'NZ'},
-  {name: 'Nicaragua', code: 'NI'},
-  {name: 'Niger', code: 'NE'},
-  {name: 'Nigeria', code: 'NG'},
-  {name: 'Niue', code: 'NU'},
-  {name: 'Norfolk Island', code: 'NF'},
-  {name: 'Northern Mariana Islands', code: 'MP'},
-  {name: 'Norway', code: 'NO'},
-  {name: 'Oman', code: 'OM'},
-  {name: 'Pakistan', code: 'PK'},
-  {name: 'Palau', code: 'PW'},
-  {name: 'Palestinian Territory, Occupied', code: 'PS'},
-  {name: 'Panama', code: 'PA'},
-  {name: 'Papua New Guinea', code: 'PG'},
-  {name: 'Paraguay', code: 'PY'},
-  {name: 'Peru', code: 'PE'},
-  {name: 'Philippines', code: 'PH'},
-  {name: 'Pitcairn', code: 'PN'},
-  {name: 'Poland', code: 'PL'},
-  {name: 'Portugal', code: 'PT'},
-  {name: 'Puerto Rico', code: 'PR'},
-  {name: 'Qatar', code: 'QA'},
-  {name: 'Reunion', code: 'RE'},
-  {name: 'Romania', code: 'RO'},
-  {name: 'Russian Federation', code: 'RU'},
-  {name: 'RWANDA', code: 'RW'},
-  {name: 'Saint Helena', code: 'SH'},
-  {name: 'Saint Kitts and Nevis', code: 'KN'},
-  {name: 'Saint Lucia', code: 'LC'},
-  {name: 'Saint Pierre and Miquelon', code: 'PM'},
-  {name: 'Saint Vincent and the Grenadines', code: 'VC'},
-  {name: 'Samoa', code: 'WS'},
-  {name: 'San Marino', code: 'SM'},
-  {name: 'Sao Tome and Principe', code: 'ST'},
-  {name: 'Saudi Arabia', code: 'SA'},
-  {name: 'Senegal', code: 'SN'},
-  {name: 'Serbia and Montenegro', code: 'CS'},
-  {name: 'Seychelles', code: 'SC'},
-  {name: 'Sierra Leone', code: 'SL'},
-  {name: 'Singapore', code: 'SG'},
-  {name: 'Slovakia', code: 'SK'},
-  {name: 'Slovenia', code: 'SI'},
-  {name: 'Solomon Islands', code: 'SB'},
-  {name: 'Somalia', code: 'SO'},
-  {name: 'South Africa', code: 'ZA'},
-  {name: 'South Georgia and the South Sandwich Islands', code: 'GS'},
-  {name: 'Spain', code: 'ES'},
-  {name: 'Sri Lanka', code: 'LK'},
-  {name: 'Sudan', code: 'SD'},
-  {name: 'Suriname', code: 'SR'},
-  {name: 'Svalbard and Jan Mayen', code: 'SJ'},
-  {name: 'Swaziland', code: 'SZ'},
-  {name: 'Sweden', code: 'SE'},
-  {name: 'Switzerland', code: 'CH'},
-  {name: 'Syrian Arab Republic', code: 'SY'},
-  {name: 'Taiwan, Province of China', code: 'TW'},
-  {name: 'Tajikistan', code: 'TJ'},
-  {name: 'Tanzania, United Republic of', code: 'TZ'},
-  {name: 'Thailand', code: 'TH'},
-  {name: 'Timor-Leste', code: 'TL'},
-  {name: 'Togo', code: 'TG'},
-  {name: 'Tokelau', code: 'TK'},
-  {name: 'Tonga', code: 'TO'},
-  {name: 'Trinidad and Tobago', code: 'TT'},
-  {name: 'Tunisia', code: 'TN'},
-  {name: 'Turkey', code: 'TR'},
-  {name: 'Turkmenistan', code: 'TM'},
-  {name: 'Turks and Caicos Islands', code: 'TC'},
-  {name: 'Tuvalu', code: 'TV'},
-  {name: 'Uganda', code: 'UG'},
-  {name: 'Ukraine', code: 'UA'},
-  {name: 'United Arab Emirates', code: 'AE'},
-  {name: 'United Kingdom', code: 'GB'},
-  {name: 'United States', code: 'US'},
-  {name: 'United States Minor Outlying Islands', code: 'UM'},
-  {name: 'Uruguay', code: 'UY'},
-  {name: 'Uzbekistan', code: 'UZ'},
-  {name: 'Vanuatu', code: 'VU'},
-  {name: 'Venezuela', code: 'VE'},
-  {name: 'Viet Nam', code: 'VN'},
-  {name: 'Virgin Islands, British', code: 'VG'},
-  {name: 'Virgin Islands, U.S.', code: 'VI'},
-  {name: 'Wallis and Futuna', code: 'WF'},
-  {name: 'Western Sahara', code: 'EH'},
-  {name: 'Yemen', code: 'YE'},
-  {name: 'Zambia', code: 'ZM'},
-  {name: 'Zimbabwe', code: 'ZW'}
-]
+# [
+require "sequel"
+DB=Sequel.sqlite('./DB-dev/kyc-registry.db')
+Country.dataset.destroy
+require_relative "../helpers/all.rb"
+require_relative "../models/all.rb"
+  Country.create({name: 'Afghanistan', code: 'AF'})
+  Country.create({name: 'Aland Islands', code: 'AX'})
+  Country.create({name: 'Albania', code: 'AL'})
+  Country.create({name: 'Algeria', code: 'DZ'})
+  Country.create({name: 'American Samoa', code: 'AS'})
+  Country.create({name: 'AndorrA', code: 'AD'})
+  Country.create({name: 'Angola', code: 'AO'})
+  Country.create({name: 'Anguilla', code: 'AI'})
+  Country.create({name: 'Antarctica', code: 'AQ'})
+  Country.create({name: 'Antigua and Barbuda', code: 'AG'})
+  Country.create({name: 'Argentina', code: 'AR'})
+  Country.create({name: 'Armenia', code: 'AM'})
+  Country.create({name: 'Aruba', code: 'AW'})
+  Country.create({name: 'Australia', code: 'AU'})
+  Country.create({name: 'Austria', code: 'AT'})
+  Country.create({name: 'Azerbaijan', code: 'AZ'})
+  Country.create({name: 'Bahamas', code: 'BS'})
+  Country.create({name: 'Bahrain', code: 'BH'})
+  Country.create({name: 'Bangladesh', code: 'BD'})
+  Country.create({name: 'Barbados', code: 'BB'})
+  Country.create({name: 'Belarus', code: 'BY'})
+  Country.create({name: 'Belgium', code: 'BE'})
+  Country.create({name: 'Belize', code: 'BZ'})
+  Country.create({name: 'Benin', code: 'BJ'})
+  Country.create({name: 'Bermuda', code: 'BM'})
+  Country.create({name: 'Bhutan', code: 'BT'})
+  Country.create({name: 'Bolivia', code: 'BO'})
+  Country.create({name: 'Bosnia and Herzegovina', code: 'BA'})
+  Country.create({name: 'Botswana', code: 'BW'})
+  Country.create({name: 'Bouvet Island', code: 'BV'})
+  Country.create({name: 'Brazil', code: 'BR'})
+  Country.create({name: 'British Indian Ocean Territory', code: 'IO'})
+  Country.create({name: 'Brunei Darussalam', code: 'BN'})
+  Country.create({name: 'Bulgaria', code: 'BG'})
+  Country.create({name: 'Burkina Faso', code: 'BF'})
+  Country.create({name: 'Burundi', code: 'BI'})
+  Country.create({name: 'Cambodia', code: 'KH'})
+  Country.create({name: 'Cameroon', code: 'CM'})
+  Country.create({name: 'Canada', code: 'CA'})
+  Country.create({name: 'Cape Verde', code: 'CV'})
+  Country.create({name: 'Cayman Islands', code: 'KY'})
+  Country.create({name: 'Central African Republic', code: 'CF'})
+  Country.create({name: 'Chad', code: 'TD'})
+  Country.create({name: 'Chile', code: 'CL'})
+  Country.create({name: 'China', code: 'CN'})
+  Country.create({name: 'Christmas Island', code: 'CX'})
+  Country.create({name: 'Cocos (Keeling) Islands', code: 'CC'})
+  Country.create({name: 'Colombia', code: 'CO'})
+  Country.create({name: 'Comoros', code: 'KM'})
+  Country.create({name: 'Congo', code: 'CG'})
+  Country.create({name: 'Congo, The Democratic Republic of the', code: 'CD'})
+  Country.create({name: 'Cook Islands', code: 'CK'})
+  Country.create({name: 'Costa Rica', code: 'CR'})
+  Country.create({name: 'Cote D\'Ivoire', code: 'CI'})
+  Country.create({name: 'Croatia', code: 'HR'})
+  Country.create({name: 'Cuba', code: 'CU'})
+  Country.create({name: 'Cyprus', code: 'CY'})
+  Country.create({name: 'Czech Republic', code: 'CZ'})
+  Country.create({name: 'Denmark', code: 'DK'})
+  Country.create({name: 'Djibouti', code: 'DJ'})
+  Country.create({name: 'Dominica', code: 'DM'})
+  Country.create({name: 'Dominican Republic', code: 'DO'})
+  Country.create({name: 'Ecuador', code: 'EC'})
+  Country.create({name: 'Egypt', code: 'EG'})
+  Country.create({name: 'El Salvador', code: 'SV'})
+  Country.create({name: 'Equatorial Guinea', code: 'GQ'})
+  Country.create({name: 'Eritrea', code: 'ER'})
+  Country.create({name: 'Estonia', code: 'EE'})
+  Country.create({name: 'Ethiopia', code: 'ET'})
+  Country.create({name: 'Falkland Islands (Malvinas)', code: 'FK'})
+  Country.create({name: 'Faroe Islands', code: 'FO'})
+  Country.create({name: 'Fiji', code: 'FJ'})
+  Country.create({name: 'Finland', code: 'FI'})
+  Country.create({name: 'France', code: 'FR'})
+  Country.create({name: 'French Guiana', code: 'GF'})
+  Country.create({name: 'French Polynesia', code: 'PF'})
+  Country.create({name: 'French Southern Territories', code: 'TF'})
+  Country.create({name: 'Gabon', code: 'GA'})
+  Country.create({name: 'Gambia', code: 'GM'})
+  Country.create({name: 'Georgia', code: 'GE'})
+  Country.create({name: 'Germany', code: 'DE'})
+  Country.create({name: 'Ghana', code: 'GH'})
+  Country.create({name: 'Gibraltar', code: 'GI'})
+  Country.create({name: 'Greece', code: 'GR'})
+  Country.create({name: 'Greenland', code: 'GL'})
+  Country.create({name: 'Grenada', code: 'GD'})
+  Country.create({name: 'Guadeloupe', code: 'GP'})
+  Country.create({name: 'Guam', code: 'GU'})
+  Country.create({name: 'Guatemala', code: 'GT'})
+  Country.create({name: 'Guernsey', code: 'GG'})
+  Country.create({name: 'Guinea', code: 'GN'})
+  Country.create({name: 'Guinea-Bissau', code: 'GW'})
+  Country.create({name: 'Guyana', code: 'GY'})
+  Country.create({name: 'Haiti', code: 'HT'})
+  Country.create({name: 'Heard Island and Mcdonald Islands', code: 'HM'})
+  Country.create({name: 'Holy See (Vatican City State)', code: 'VA'})
+  Country.create({name: 'Honduras', code: 'HN'})
+  Country.create({name: 'Hong Kong', code: 'HK'})
+  Country.create({name: 'Hungary', code: 'HU'})
+  Country.create({name: 'Iceland', code: 'IS'})
+  Country.create({name: 'India', code: 'IN'})
+  Country.create({name: 'Indonesia', code: 'ID'})
+  Country.create({name: 'Iran, Islamic Republic Of', code: 'IR'})
+  Country.create({name: 'Iraq', code: 'IQ'})
+  Country.create({name: 'Ireland', code: 'IE'})
+  Country.create({name: 'Isle of Man', code: 'IM'})
+  Country.create({name: 'Israel', code: 'IL'})
+  Country.create({name: 'Italy', code: 'IT'})
+  Country.create({name: 'Jamaica', code: 'JM'})
+  Country.create({name: 'Japan', code: 'JP'})
+  Country.create({name: 'Jersey', code: 'JE'})
+  Country.create({name: 'Jordan', code: 'JO'})
+  Country.create({name: 'Kazakhstan', code: 'KZ'})
+  Country.create({name: 'Kenya', code: 'KE'})
+  Country.create({name: 'Kiribati', code: 'KI'})
+  Country.create({name: 'Korea, Democratic People\'S Republic of', code: 'KP'})
+  Country.create({name: 'Korea, Republic of', code: 'KR'})
+  Country.create({name: 'Kuwait', code: 'KW'})
+  Country.create({name: 'Kyrgyzstan', code: 'KG'})
+  Country.create({name: 'Lao People\'S Democratic Republic', code: 'LA'})
+  Country.create({name: 'Latvia', code: 'LV'})
+  Country.create({name: 'Lebanon', code: 'LB'})
+  Country.create({name: 'Lesotho', code: 'LS'})
+  Country.create({name: 'Liberia', code: 'LR'})
+  Country.create({name: 'Libyan Arab Jamahiriya', code: 'LY'})
+  Country.create({name: 'Liechtenstein', code: 'LI'})
+  Country.create({name: 'Lithuania', code: 'LT'})
+  Country.create({name: 'Luxembourg', code: 'LU'})
+  Country.create({name: 'Macao', code: 'MO'})
+  Country.create({name: 'Macedonia, The Former Yugoslav Republic of', code: 'MK'})
+  Country.create({name: 'Madagascar', code: 'MG'})
+  Country.create({name: 'Malawi', code: 'MW'})
+  Country.create({name: 'Malaysia', code: 'MY'})
+  Country.create({name: 'Maldives', code: 'MV'})
+  Country.create({name: 'Mali', code: 'ML'})
+  Country.create({name: 'Malta', code: 'MT'})
+  Country.create({name: 'Marshall Islands', code: 'MH'})
+  Country.create({name: 'Martinique', code: 'MQ'})
+  Country.create({name: 'Mauritania', code: 'MR'})
+  Country.create({name: 'Mauritius', code: 'MU'})
+  Country.create({name: 'Mayotte', code: 'YT'})
+  Country.create({name: 'Mexico', code: 'MX'})
+  Country.create({name: 'Micronesia, Federated States of', code: 'FM'})
+  Country.create({name: 'Moldova, Republic of', code: 'MD'})
+  Country.create({name: 'Monaco', code: 'MC'})
+  Country.create({name: 'Mongolia', code: 'MN'})
+  Country.create({name: 'Montserrat', code: 'MS'})
+  Country.create({name: 'Morocco', code: 'MA'})
+  Country.create({name: 'Mozambique', code: 'MZ'})
+  Country.create({name: 'Myanmar', code: 'MM'})
+  Country.create({name: 'Namibia', code: 'NA'})
+  Country.create({name: 'Nauru', code: 'NR'})
+  Country.create({name: 'Nepal', code: 'NP'})
+  Country.create({name: 'Netherlands', code: 'NL'})
+  Country.create({name: 'Netherlands Antilles', code: 'AN'})
+  Country.create({name: 'New Caledonia', code: 'NC'})
+  Country.create({name: 'New Zealand', code: 'NZ'})
+  Country.create({name: 'Nicaragua', code: 'NI'})
+  Country.create({name: 'Niger', code: 'NE'})
+  Country.create({name: 'Nigeria', code: 'NG'})
+  Country.create({name: 'Niue', code: 'NU'})
+  Country.create({name: 'Norfolk Island', code: 'NF'})
+  Country.create({name: 'Northern Mariana Islands', code: 'MP'})
+  Country.create({name: 'Norway', code: 'NO'})
+  Country.create({name: 'Oman', code: 'OM'})
+  Country.create({name: 'Pakistan', code: 'PK'})
+  Country.create({name: 'Palau', code: 'PW'})
+  Country.create({name: 'Palestinian Territory, Occupied', code: 'PS'})
+  Country.create({name: 'Panama', code: 'PA'})
+  Country.create({name: 'Papua New Guinea', code: 'PG'})
+  Country.create({name: 'Paraguay', code: 'PY'})
+  Country.create({name: 'Peru', code: 'PE'})
+  Country.create({name: 'Philippines', code: 'PH'})
+  Country.create({name: 'Pitcairn', code: 'PN'})
+  Country.create({name: 'Poland', code: 'PL'})
+  Country.create({name: 'Portugal', code: 'PT'})
+  Country.create({name: 'Puerto Rico', code: 'PR'})
+  Country.create({name: 'Qatar', code: 'QA'})
+  Country.create({name: 'Reunion', code: 'RE'})
+  Country.create({name: 'Romania', code: 'RO'})
+  Country.create({name: 'Russian Federation', code: 'RU'})
+  Country.create({name: 'RWANDA', code: 'RW'})
+  Country.create({name: 'Saint Helena', code: 'SH'})
+  Country.create({name: 'Saint Kitts and Nevis', code: 'KN'})
+  Country.create({name: 'Saint Lucia', code: 'LC'})
+  Country.create({name: 'Saint Pierre and Miquelon', code: 'PM'})
+  Country.create({name: 'Saint Vincent and the Grenadines', code: 'VC'})
+  Country.create({name: 'Samoa', code: 'WS'})
+  Country.create({name: 'San Marino', code: 'SM'})
+  Country.create({name: 'Sao Tome and Principe', code: 'ST'})
+  Country.create({name: 'Saudi Arabia', code: 'SA'})
+  Country.create({name: 'Senegal', code: 'SN'})
+  Country.create({name: 'Serbia and Montenegro', code: 'CS'})
+  Country.create({name: 'Seychelles', code: 'SC'})
+  Country.create({name: 'Sierra Leone', code: 'SL'})
+  Country.create({name: 'Singapore', code: 'SG'})
+  Country.create({name: 'Slovakia', code: 'SK'})
+  Country.create({name: 'Slovenia', code: 'SI'})
+  Country.create({name: 'Solomon Islands', code: 'SB'})
+  Country.create({name: 'Somalia', code: 'SO'})
+  Country.create({name: 'South Africa', code: 'ZA'})
+  Country.create({name: 'South Georgia and the South Sandwich Islands', code: 'GS'})
+  Country.create({name: 'Spain', code: 'ES'})
+  Country.create({name: 'Sri Lanka', code: 'LK'})
+  Country.create({name: 'Sudan', code: 'SD'})
+  Country.create({name: 'Suriname', code: 'SR'})
+  Country.create({name: 'Svalbard and Jan Mayen', code: 'SJ'})
+  Country.create({name: 'Swaziland', code: 'SZ'})
+  Country.create({name: 'Sweden', code: 'SE'})
+  Country.create({name: 'Switzerland', code: 'CH'})
+  Country.create({name: 'Syrian Arab Republic', code: 'SY'})
+  Country.create({name: 'Taiwan, Province of China', code: 'TW'})
+  Country.create({name: 'Tajikistan', code: 'TJ'})
+  Country.create({name: 'Tanzania, United Republic of', code: 'TZ'})
+  Country.create({name: 'Thailand', code: 'TH'})
+  Country.create({name: 'Timor-Leste', code: 'TL'})
+  Country.create({name: 'Togo', code: 'TG'})
+  Country.create({name: 'Tokelau', code: 'TK'})
+  Country.create({name: 'Tonga', code: 'TO'})
+  Country.create({name: 'Trinidad and Tobago', code: 'TT'})
+  Country.create({name: 'Tunisia', code: 'TN'})
+  Country.create({name: 'Turkey', code: 'TR'})
+  Country.create({name: 'Turkmenistan', code: 'TM'})
+  Country.create({name: 'Turks and Caicos Islands', code: 'TC'})
+  Country.create({name: 'Tuvalu', code: 'TV'})
+  Country.create({name: 'Uganda', code: 'UG'})
+  Country.create({name: 'Ukraine', code: 'UA'})
+  Country.create({name: 'United Arab Emirates', code: 'AE'})
+  Country.create({name: 'United Kingdom', code: 'GB'})
+  Country.create({name: 'United States', code: 'US'})
+  Country.create({name: 'United States Minor Outlying Islands', code: 'UM'})
+  Country.create({name: 'Uruguay', code: 'UY'})
+  Country.create({name: 'Uzbekistan', code: 'UZ'})
+  Country.create({name: 'Vanuatu', code: 'VU'})
+  Country.create({name: 'Venezuela', code: 'VE'})
+  Country.create({name: 'Viet Nam', code: 'VN'})
+  Country.create({name: 'Virgin Islands, British', code: 'VG'})
+  Country.create({name: 'Virgin Islands, U.S.', code: 'VI'})
+  Country.create({name: 'Wallis and Futuna', code: 'WF'})
+  Country.create({name: 'Western Sahara', code: 'EH'})
+  Country.create({name: 'Yemen', code: 'YE'})
+  Country.create({name: 'Zambia', code: 'ZM'})
+  Country.create({name: 'Zimbabwe', code: 'ZW'})
+# ]

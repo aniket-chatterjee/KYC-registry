@@ -1,4 +1,4 @@
-Sequel::Model.plugin :timestamps
+Sequel::Model.plugin :timestamps, force: true, update_on_create: true
 class Country<Sequel::Model(DB[:countries])
 end
 class Customer<Sequel::Model(DB[:customers])

@@ -1,9 +1,15 @@
 class App<Roda
     route do |r|
+      data=JSON.parse(request.body.read) rescue {}
+      data = App.indifferent_data(data)
+
       r.on "kyc-registry" do
           r.on "new" do
             r.get do
               view "kyc_form/new"
+            end
+            r.post do
+              p params.to_json
             end
           end
           r.on "update" do

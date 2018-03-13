@@ -3,7 +3,8 @@ Sequel.migration do
     create_table(:applicant_declarations) do
       primary_key :id, type: :Bignum
 
-      String      :place, null:false
+      String      :place
+      String      :signature
       Date        :date
 
       foreign_key :customer_id, :customers, :on_delete=>:cascade, :type=>'varchar(255)'

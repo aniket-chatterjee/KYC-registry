@@ -17,6 +17,7 @@ Sequel.migration do
       String      :nrega_job_card
       String      :other_card_name
       String      :other_card_id
+      String      :document
 
       foreign_key :customer_id, :customers, :on_delete=>:cascade, :type=>'varchar(255)'
       foreign_key :address_id, :addresses, :on_delete=>:cascade

@@ -1,9 +1,9 @@
 # [
 require "sequel"
 DB=Sequel.sqlite('./DB-dev/kyc-registry.db')
-Country.dataset.destroy
 require_relative "../helpers/all.rb"
 require_relative "../models/all.rb"
+Country.dataset.destroy
   Country.create({name: 'Afghanistan', code: 'AF'})
   Country.create({name: 'Aland Islands', code: 'AX'})
   Country.create({name: 'Albania', code: 'AL'})

@@ -9,7 +9,8 @@ class App<Roda
               view "kyc_form/new"
             end
             r.post do
-              p params.to_json
+              customer=Customer.createCustomer(params)
+              customer.values
             end
           end
           r.on "update" do

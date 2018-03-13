@@ -10,6 +10,8 @@ Sequel.migration do
       String      :institution_name
       String      :institution_code
       String      :emp_branch
+      String      :signature
+      String      :stamp
 
       foreign_key :customer_id, :customers, :on_delete=>:cascade, :type=>'varchar(255)'
       foreign_key :related_person_id, :related_persons, :on_delete=>:cascade
